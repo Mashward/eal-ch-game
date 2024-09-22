@@ -1,0 +1,94 @@
+{
+    "units": {
+        "Family and Lifestyle": {
+            "topics": [
+                "Describe a typical family dinner in your culture.",
+                "What is a memorable family tradition?",
+                "How do you balance work and home life?"
+            ],
+            "responses": [
+                "Sharing traditional recipes.",
+                "Celebrating cultural festivals.",
+                "Daily family routines.",
+                "Planning family vacations.",
+                "Balancing work and hobbies.",
+                "Supporting each other's goals."
+            ]
+        },
+        "Science and Technology": {
+            "topics": [
+                "The future of renewable energy lies in...",
+                "Innovations in artificial intelligence...",
+                "The impact of social media on society..."
+            ],
+            "responses": [
+                "Harnessing solar power more efficiently.",
+                "Developing smarter AI algorithms.",
+                "Connecting people worldwide.",
+                "Advancements in medical technology.",
+                "Improving communication tools.",
+                "Enhancing data security."
+            ]
+        },
+        "Education and Learning": {
+            "topics": [
+                "The importance of critical thinking in education.",
+                "How technology is changing the classroom.",
+                "Balancing academics and extracurricular activities."
+            ],
+            "responses": [
+                "Interactive online classes.",
+                "Group study sessions.",
+                "Access to diverse learning materials.",
+                "Encouraging creative problem-solving.",
+                "Promoting lifelong learning habits.",
+                "Integrating multimedia resources."
+            ]
+        },
+        "Health and Wellness": {
+            "topics": [
+                "Maintaining a balanced diet involves...",
+                "Regular physical exercise benefits...",
+                "Mental health awareness is crucial because..."
+            ],
+            "responses": [
+                "Incorporating various food groups.",
+                "Boosting overall well-being.",
+                "Reducing stress and anxiety.",
+                "Enhancing physical fitness.",
+                "Promoting healthy lifestyle habits.",
+                "Ensuring access to healthcare services."
+            ]
+        },
+        "Environmental Issues": {
+            "topics": [
+                "Reducing plastic waste can be achieved by...",
+                "Conserving natural resources requires...",
+                "Addressing climate change involves..."
+            ],
+            "responses": [
+                "Implementing recycling programs.",
+                "Promoting sustainable living.",
+                "Investing in renewable energy.",
+                "Protecting endangered species.",
+                "Raising public awareness.",
+                "Encouraging eco-friendly practices."
+            ]
+        },
+        "Cultural Diversity": {
+            "topics": [
+                "Respecting different traditions means...",
+                "Learning new languages helps in...",
+                "Embracing multiculturalism leads to..."
+            ],
+            "responses": [
+                "Fostering mutual understanding.",
+                "Enhancing communication skills.",
+                "Promoting global harmony.",
+                "Celebrating diverse perspectives.",
+                "Encouraging inclusive communities.",
+                "Expanding personal horizons."
+            ]
+        }
+    }
+}

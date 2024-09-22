@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EAL Cards Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>EAL Cards Game</h1>
+        <div id="landing-screen">
+            <div>
+                <label for="player-count">Number of Players (1-6): </label>
+                <select id="player-count">
+                    <option value="1">1 (Single Player)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </select>
+            </div>
+            <div>
+                <label for="topic-select">Select Topic: </label>
+                <select id="topic-select">
+                    <option value="Family and Lifestyle">Family and Lifestyle</option>
+                    <option value="Media and Films">Media and Films</option>
+                    <option value="Technology">Technology</option>
+                    <option value="Environment">Environment</option>
+                    <option value="Travel and Tourism">Travel and Tourism</option>
+                    <option value="Shopping and Consumer Society">Shopping and Consumer Society</option>
+                    <option value="Health, Fitness, and Sport">Health, Fitness, and Sport</option>
+                </select>
+            </div>
+            <button id="start-game-button">Start Game</button>
+            <button id="word-list-button">Word List / Translation</button>
+        </div>
+
+        <!-- Single Player Mode -->
+        <div id="single-player-mode" class="mode" style="display: none;">
+            <h2>Single Player Mode</h2>
+            <div id="sp-topic-card" class="card">
+                <!-- Topic will be displayed here -->
+            </div>
+            <div id="sp-timer">Time Left: <span id="sp-time">30</span>s</div>
+            <div id="sp-response-options" class="options">
+                <!-- Response options will be displayed here -->
+            </div>
+            <div id="sp-feedback"></div>
+            <button id="sp-next-button" style="display: none;">Next Topic</button>
+        </div>
+
+        <!-- Multiplayer Mode -->
+        <div id="multiplayer-mode" class="mode" style="display: none;">
+            <h2>Multiplayer Mode</h2>
+            <div id="mp-current-player" class="current-player">
+                <!-- Current player's turn -->
+            </div>
+            <div id="mp-topic-card" class="card">
+                <!-- Topic will be displayed here -->
+            </div>
+            <div id="mp-timer">Time Left: <span id="mp-time">30</span>s</div>
+            <div id="mp-response-options" class="options">
+                <!-- Response options will be displayed here -->
+            </div>
+            <div id="mp-feedback"></div>
+            <button id="mp-next-button" style="display: none;">Next Player</button>
+        </div>
+
+        <!-- Word List / Translation Modal -->
+        <div id="word-list-modal" class="modal" style="display: none;">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <h2>Word List / Translation</h2>
+                <ul id="word-list">
+                    <!-- Word list will be populated here -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

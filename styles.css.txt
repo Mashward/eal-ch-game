@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.game-container {
+    background-color: #ffffff;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+}
+
+h1 {
+    color: #333333;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 15px 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+select {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.card {
+    border: 2px solid #333333;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 0;
+    font-size: 1.2em;
+    background-color: #fefefe;
+    min-height: 100px;
+}
+
+.options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.option {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    flex: 1 1 40%;
+    max-width: 45%;
+}
+
+.option:hover {
+    background-color: #1e7e34;
+}
+
+.current-player {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#sp-timer, #mp-timer {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+#sp-feedback, #mp-feedback {
+    margin-top: 15px;
+    font-size: 1.1em;
+    color: #555555;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right:0;
+    bottom:0;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: #ffffff;
+    padding: 20px 40px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    position: relative;
+}
+
+.close-button {
+    position: absolute;
+    top:10px;
+    right: 20px;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+#word-list {
+    text-align: left;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+#word-list li {
+    margin-bottom: 10px;
+}
